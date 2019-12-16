@@ -10,8 +10,9 @@ public class Human {
     }
 
     public void play() {
-        for (int i = 0; i < pets.length; i++) {
-            System.out.println(pets[i].makeSound());
+        for (Animal a:pets){
+            System.out.println(a.getName()+" macht "+a.makeSound());
         }
+
     }
 }

@@ -8,6 +8,10 @@ public abstract class Animal {
        this.name=name;
     }
 
+    public String getName(){
+        return name;
+    }
+
     public abstract String makeSound();
 
 
